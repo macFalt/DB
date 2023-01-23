@@ -1,0 +1,57 @@
+﻿<Properties StartupConfiguration="{FC08339E-EDA8-4F97-B9F6-78D1800CB773}|Default">
+  <MonoDevelop.Ide.ItemProperties.Application.WareHouseMVC.Application FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WareHouseMVC/Program.cs">
+    <Files>
+      <File FileName="WareHouseMVC/Program.cs" Line="10" Column="35" />
+      <File FileName="WareHouseMVC.Infrastructure/Repositories/ItemRepository.cs" />
+      <File FileName="WareHouseMVC.Infrastructure/Context.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/Address.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/ContactDetail.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/ContactDetailType.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/Customer.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/CustomerContactInformation.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/Item.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/ItemTag.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/Provider.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/Tag.cs" />
+      <File FileName="WareHouseMVC.Domain/Model/Type.cs" />
+      <File FileName="WareHouseMVC.Domain/Interface/IItemRepository.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WareHouseMVC" expanded="True">
+            <Node name="Application" expanded="True">
+              <Node name="WareHouseMVC.Application" expanded="True" />
+            </Node>
+            <Node name="Domain" expanded="True">
+              <Node name="WareHouseMVC.Domain" expanded="True">
+                <Node name="Interface" expanded="True" />
+                <Node name="Model" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="WareHouseMVC.Infrastructure" expanded="True">
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="UI" expanded="True">
+              <Node name="WareHouseMVC" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.WareHouseMVC.Infrastructure FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.UI.WareHouseMVC PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Domain.WareHouseMVC.Domain FirstBuild="True" />
+</Properties>

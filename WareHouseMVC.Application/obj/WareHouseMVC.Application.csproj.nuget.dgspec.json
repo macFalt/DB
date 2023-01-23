@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Application/WareHouseMVC.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Application/WareHouseMVC.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Application/WareHouseMVC.Application.csproj",
+        "projectName": "WareHouseMVC.Application",
+        "projectPath": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Application/WareHouseMVC.Application.csproj",
+        "packagesPath": "/Users/maciejfaltynski/.nuget/packages/",
+        "outputPath": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maciejfaltynski/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/WareHouseMVC.Domain.csproj": {
+                "projectPath": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/WareHouseMVC.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/WareHouseMVC.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/WareHouseMVC.Domain.csproj",
+        "projectName": "WareHouseMVC.Domain",
+        "projectPath": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/WareHouseMVC.Domain.csproj",
+        "packagesPath": "/Users/maciejfaltynski/.nuget/packages/",
+        "outputPath": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maciejfaltynski/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC/WareHouseMVC.csproj": {
+                "projectPath": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC/WareHouseMVC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC/WareHouseMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC/WareHouseMVC.csproj",
+        "projectName": "WareHouseMVC",
+        "projectPath": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC/WareHouseMVC.csproj",
+        "packagesPath": "/Users/maciejfaltynski/.nuget/packages/",
+        "outputPath": "/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maciejfaltynski/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
