@@ -1,0 +1,34 @@
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Infrastructure.deps.json
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Infrastructure.runtimeconfig.json
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Infrastructure.dll
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Infrastructure.pdb
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Domain.pdb
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.csproj.AssemblyReference.cache
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.AssemblyInfoInputs.cache
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.AssemblyInfo.cs
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.csproj.CopyComplete
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.dll
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/refint/WareHouseMVC.Infrastructure.dll
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.pdb
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.genruntimeconfig.cache
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/ref/WareHouseMVC.Infrastructure.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Infrastructure.deps.json
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Infrastructure.runtimeconfig.json
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Infrastructure.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Infrastructure.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/bin/Debug/net6.0/WareHouseMVC.Domain.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.csproj.AssemblyReference.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.AssemblyInfoInputs.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.AssemblyInfo.cs
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.csproj.CopyComplete
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/refint/WareHouseMVC.Infrastructure.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/WareHouseMVC.Infrastructure.genruntimeconfig.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Infrastructure/obj/Debug/net6.0/ref/WareHouseMVC.Infrastructure.dll

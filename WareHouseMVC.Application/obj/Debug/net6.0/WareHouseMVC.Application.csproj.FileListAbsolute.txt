@@ -1,0 +1,15 @@
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/bin/Debug/net6.0/WareHouseMVC.Application.deps.json
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/bin/Debug/net6.0/WareHouseMVC.Application.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/bin/Debug/net6.0/WareHouseMVC.Application.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/bin/Debug/net6.0/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/bin/Debug/net6.0/WareHouseMVC.Domain.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/WareHouseMVC.Application.csproj.AssemblyReference.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/WareHouseMVC.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/WareHouseMVC.Application.AssemblyInfoInputs.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/WareHouseMVC.Application.AssemblyInfo.cs
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/WareHouseMVC.Application.csproj.CoreCompileInputs.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/WareHouseMVC.Application.csproj.CopyComplete
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/WareHouseMVC.Application.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/refint/WareHouseMVC.Application.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/WareHouseMVC.Application.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/obj/Debug/net6.0/ref/WareHouseMVC.Application.dll

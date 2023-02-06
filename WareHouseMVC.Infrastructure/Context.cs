@@ -8,8 +8,22 @@ using WareHouseMVC.Domain.Model;
 
 namespace WareHouseMVC.Infrastructure
 {
-    public class Context : IdentityDbContext
+    public class Context : IdentityDbContext   //identityDbContext
     {
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+
+            optionsBuilder.UseSqlServer(@"Server=localhost,1433;database=MagazynNarzedziowyDB;User=SA;Password=P@ssw0rd");
+        }
+
+        public Context()
+        {
+
+        }
+
+        public Context(DbContextOptions<Context> options) : base(options)
+        {
+        }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<ContactDetail> ContactDetails { get; set; }
         public DbSet<ContactDetailType> ContactDetailTypes { get; set; }
@@ -24,9 +38,7 @@ namespace WareHouseMVC.Infrastructure
 
 
 
-        public Context(DbContextOptions options) : base(options)
-        {
-        }
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

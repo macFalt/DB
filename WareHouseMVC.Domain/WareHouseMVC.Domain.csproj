@@ -14,7 +14,4 @@
     <Folder Include="Interface\" />
     <Folder Include="Model\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WareHouseMVC\WareHouseMVC.csproj" />
-  </ItemGroup>
 </Project>

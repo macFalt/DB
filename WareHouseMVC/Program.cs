@@ -1,19 +1,31 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
-
+using WareHouseMVC.Domain.Interface;
+using WareHouseMVC.Infrastructure;
+using WareHouseMVC.Infrastructure.Repositories;
+using WareHouseMVC.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<Context>(options =>
-    options.UseSqlite(connectionString));
+    options.UseSqlServer(connectionString));  //connectionString
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<Context>();
 builder.Services.AddControllersWithViews();
+
+//builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
+//builder.Services.AddTransient<IItemRepository, ItemRepository>();
+
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure();
+
+
+
 
 var app = builder.Build();
 

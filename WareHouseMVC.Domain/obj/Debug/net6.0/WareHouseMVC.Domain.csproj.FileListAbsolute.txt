@@ -1,0 +1,24 @@
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.csproj.AssemblyReference.cache
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.AssemblyInfoInputs.cache
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.AssemblyInfo.cs
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.csproj.CoreCompileInputs.cache
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/bin/Debug/net6.0/WareHouseMVC.Domain.deps.json
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/bin/Debug/net6.0/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/bin/Debug/net6.0/WareHouseMVC.Domain.pdb
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/refint/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.pdb
+/Users/maciejfaltynski/Documents/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/ref/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/bin/Debug/net6.0/WareHouseMVC.Domain.deps.json
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/bin/Debug/net6.0/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/bin/Debug/net6.0/WareHouseMVC.Domain.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.csproj.AssemblyReference.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.AssemblyInfoInputs.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.AssemblyInfo.cs
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.csproj.CoreCompileInputs.cache
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/refint/WareHouseMVC.Domain.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/WareHouseMVC.Domain.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Domain/obj/Debug/net6.0/ref/WareHouseMVC.Domain.dll
