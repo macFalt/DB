@@ -18,27 +18,33 @@ namespace WareHouseMVC.Controllers
         public CustomerController(ICustomerService customerService )
         {
 
-            _custService = _custService;
-
-
-
-
+            _custService = customerService;
         }
 
 
-        //GET: /<controller>/
+        [HttpGet]
         public IActionResult Index()
-        {
-            //utowrzyc widok dla akcji
-            //tabela z klientami
-            //filtorwanie klientow
-            //przygotowac dane
-            //przekazac filtry do serwisu
-            //serwis musi przygotowac dane
-            //serwis musi zwrocic dane do controlera w odpowiednim formacie
-            var model = _custService.GetAllCustomerForList();
+
+        { 
+            var model = _custService.GetAllCustomerForList(2,1,"");
             return View(model);
         }
+
+        [HttpPost]
+        public IActionResult Index(int pageSize, int? pageNo, string searchString)
+        {
+            if(!pageNo.HasValue)
+            {
+                pageNo = 1;
+            }
+            if(searchString is null)
+            {
+                searchString = String.Empty;
+            }
+            var model = _custService.GetAllCustomerForList(pageSize,pageNo.Value,searchString);
+            return View(model);
+        }
+
 
         public IActionResult AddCustomer()
         {

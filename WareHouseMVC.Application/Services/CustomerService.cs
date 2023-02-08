@@ -17,10 +17,6 @@ namespace WareHouseMVC.Application.Services
         {
             _customerRepo = customerRepo;
             _mapper = mapper;
-
-
-            
-
         }
 
 
@@ -30,13 +26,28 @@ namespace WareHouseMVC.Application.Services
             throw new NotImplementedException();
         }
 
-        public ListCustomerForListVm GetAllCustomerForList()
+        public void DeleteCustomer(int id)
         {
-            var customers = _customerRepo.GetAllActiveCustomers()
+            throw new NotImplementedException();
+        }
+
+        public ListCustomerForListVm GetAllCustomerForList(int pageSize, int pageNo, string searchString)
+        {
+
+            var customers = _customerRepo.GetAllActiveCustomers().Where(p=>p.Name.StartsWith(searchString))
                 .ProjectTo<CustomerForListVm>(_mapper.ConfigurationProvider).ToList();//zostanie automatycznie zmapowana do VM
+
+            //var customers = _customerRepo.GetAllActiveCustomers()
+            //    .ProjectTo<CustomerForListVm>(_mapper.ConfigurationProvider).ToList();//zostanie automatycznie zmapowana do VM
+
+            var customersToShow = customers.Skip(pageSize * (pageNo - 1)).Take(pageSize).ToList();
+
             var customerList = new ListCustomerForListVm()
             {
-                Customers = customers,
+                PageSize=pageSize,
+                CurrentPage=pageNo,
+                SearchString=searchString,
+                Customers = customersToShow,
                 Count = customers.Count
 
             };
@@ -96,6 +107,16 @@ namespace WareHouseMVC.Application.Services
 
             }
             return customerVm;
+        }
+
+        public NewCustomerVm GetCustomerForEdit(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateCustomer(NewCustomerVm model)
+        {
+            throw new NotImplementedException();
         }
     }
 }

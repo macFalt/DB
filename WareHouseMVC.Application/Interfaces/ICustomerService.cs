@@ -6,11 +6,17 @@ namespace WareHouseMVC.Application.Interfaces
 {
 	public interface ICustomerService
 	{
-        ListCustomerForListVm GetAllCustomerForList();
+        ListCustomerForListVm GetAllCustomerForList(int pageSize, int pageNo, string searchString);
 
         int AddCustomer(NewCustomerVm customer);
 
         CustomerDetailVm GetCustomerDetail(int customerId);
+
+        void DeleteCustomer(int id);
+
+        NewCustomerVm GetCustomerForEdit(int id);
+
+        void UpdateCustomer(NewCustomerVm model);
 
 
 

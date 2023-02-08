@@ -1,27 +1,9 @@
 ﻿<Properties StartupConfiguration="{FC08339E-EDA8-4F97-B9F6-78D1800CB773}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WareHouseMVC.Domain/Model/Customer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WareHouseMVC/Views/Customer/Index.cshtml">
     <Files>
-      <File FileName="WareHouseMVC.Application/Interfaces/ICustomerService.cs" />
-      <File FileName="WareHouseMVC/Controllers/CustomerController.cs" Line="30" Column="33" />
+      <File FileName="WareHouseMVC/Controllers/CustomerController.cs" />
+      <File FileName="WareHouseMVC/Views/Customer/Index.cshtml" Line="70" Column="1" />
       <File FileName="WareHouseMVC.Application/Services/CustomerService.cs" />
-      <File FileName="WareHouseMVC.Application/ViewModel/Customer/CustomerDetailVm.cs" />
-      <File FileName="WareHouseMVC.Domain/Model/CustomerContactInformation.cs" />
-      <File FileName="WareHouseMVC.Application/ViewModel/Customer/ContactDetailListVm.cs" />
-      <File FileName="WareHouseMVC.Application/ViewModel/Customer/AddressForListVm.cs" />
-      <File FileName="WareHouseMVC.Application/ViewModel/Customer/ListCustomerForListVm.cs" />
-      <File FileName="WareHouseMVC.Application/ViewModel/Customer/CustomerForListVm.cs" />
-      <File FileName="WareHouseMVC.Domain/Interface/ICustomerRepository.cs" />
-      <File FileName="WareHouseMVC.Domain/Interface/IItemRepository.cs" />
-      <File FileName="WareHouseMVC.Application/Mapping/IMapFrom.cs" />
-      <File FileName="WareHouseMVC.Application/Mapping/MappingProfile.cs" />
-      <File FileName="WareHouseMVC.Domain/Model/Customer.cs" Line="1" Column="1" />
-      <File FileName="WareHouseMVC/Program.cs" />
-      <File FileName="WareHouseMVC.Infrastructure/Repositories/CustomerRepository.cs" Line="10" Column="1" />
-      <File FileName="WareHouseMVC.Application/DependencyInjection.cs" />
-      <File FileName="WareHouseMVC.Infrastructure/DependencyInjection.cs" />
-      <File FileName="WareHouseMVC/Views/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="WareHouseMVC/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="WareHouseMVC/Views/Index.cshtml" Line="28" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -40,20 +22,22 @@
             <Node name="Domain" expanded="True">
               <Node name="WareHouseMVC.Domain" expanded="True">
                 <Node name="Interface" expanded="True" />
-                <Node name="Model" expanded="True">
-                  <Node name="Customer.cs" selected="True" />
-                </Node>
+                <Node name="Model" expanded="True" />
               </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
               <Node name="WareHouseMVC.Infrastructure" expanded="True">
+                <Node name="Migrations" expanded="True" />
                 <Node name="Repositories" expanded="True" />
               </Node>
             </Node>
             <Node name="UI" expanded="True">
               <Node name="WareHouseMVC" expanded="True">
                 <Node name="Controllers" expanded="True" />
-                <Node name="Views" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Customer" expanded="True" />
+                  <Node name="Shared" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -61,12 +45,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Application.WareHouseMVC.Application FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.UI.WareHouseMVC PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
