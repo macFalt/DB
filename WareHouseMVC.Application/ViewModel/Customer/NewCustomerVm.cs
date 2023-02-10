@@ -1,9 +1,12 @@
 ﻿using System;
-namespace WareHouseMVC.Application.ViewModel
+using AutoMapper;
+using WareHouseMVC.Application.Mapping;
+
+namespace WareHouseMVC.Application.ViewModel.Customer
 {
-	public class NewCustomerVm
+	public class NewCustomerVm : IMapFrom<WareHouseMVC.Domain.Model.Customer>
 	{
-		public int id { get; set; }
+		public int Id { get; set; }
 
 		public string Name { get; set; }
 
@@ -11,11 +14,15 @@ namespace WareHouseMVC.Application.ViewModel
 
 		public string Regon { get; set; }
 
+        public void Mapping(Profile profile)
+        {
+            profile.CreateMap<NewCustomerVm, WareHouseMVC.Domain.Model.Customer>();
+
+        }
 
 
 
 
-
-	}
+    }
 }
 

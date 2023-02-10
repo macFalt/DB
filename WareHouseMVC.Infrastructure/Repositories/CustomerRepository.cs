@@ -13,6 +13,14 @@ namespace WareHouseMVC.Infrastructure.Repositories
             _context = context;
         }
 
+        public int AddCustomer(Customer customer)
+        {
+            
+            _context.Customers.Add(customer);
+            //_context.SaveChanges();
+            return customer.Id;
+
+        }
 
         public IQueryable<Customer> GetAllActiveCustomers()
         {

@@ -9,6 +9,7 @@ namespace WareHouseMVC.Domain.Interface
 
 		Customer GetCustomer(int customerId);
 
+		int AddCustomer(Customer customer);
 
 
 

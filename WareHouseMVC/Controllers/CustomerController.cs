@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WareHouseMVC.Application.Interfaces;
+using WareHouseMVC.Application.ViewModel;
+using WareHouseMVC.Application.ViewModel.Customer;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -45,22 +47,25 @@ namespace WareHouseMVC.Controllers
             return View(model);
         }
 
-
+        [HttpGet]
         public IActionResult AddCustomer()
+
         {
 
 
-            return View();
+            return View(new NewCustomerVm());
         }
 
-        //[HttpPost]
-        //public IActionResult AddCustomer(CustomerModel model)
-        //{
-        //    var id = customerService.AddCustomer(model);
+        [HttpPost]
+        public IActionResult AddCustomer(NewCustomerVm model)
+        {
+            var id = _custService.AddCustomer(model);
 
 
-        //    return View();
-        //}
+            return RedirectToAction("Index");
+        }
+
+
         [HttpGet]
         public IActionResult AddNewAddressForClient(int customerId)
         {

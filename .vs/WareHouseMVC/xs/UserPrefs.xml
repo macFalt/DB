@@ -1,9 +1,43 @@
 ﻿<Properties StartupConfiguration="{FC08339E-EDA8-4F97-B9F6-78D1800CB773}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WareHouseMVC/Views/Customer/Index.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.UI.WareHouseMVC PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WareHouseMVC/Controllers/CustomerController.cs">
     <Files>
-      <File FileName="WareHouseMVC/Controllers/CustomerController.cs" />
-      <File FileName="WareHouseMVC/Views/Customer/Index.cshtml" Line="70" Column="1" />
-      <File FileName="WareHouseMVC.Application/Services/CustomerService.cs" />
+      <File FileName="WareHouseMVC/Controllers/CustomerController.cs" Line="31" Column="1" />
+      <File FileName="WareHouseMVC.Application/Services/CustomerService.cs" Line="41" Column="1" />
+      <File FileName="WareHouseMVC/Views/Customer/AddCustomer.cshtml" Line="15" Column="1" />
+      <File FileName="WareHouseMVC.Application/ViewModel/Customer/NewCustomerVm.cs" Line="16" Column="1" />
+      <File FileName="WareHouseMVC.Application/ViewModel/Customer/ListCustomerForListVm.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Application/ViewModel/Customer/CustomerForListVm.cs" Line="22" Column="1" />
+      <File FileName="WareHouseMVC.Infrastructure/Repositories/CustomerRepository.cs" Line="28" Column="1" />
+      <File FileName="WareHouseMVC.Infrastructure/Context.cs" Line="17" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Model/Customer.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Application/ViewModel/Customer/CustomerDetailVm.cs" Line="38" Column="70" />
+      <File FileName="WareHouseMVC.Infrastructure/DependencyInjection.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Application/Mapping/MappingProfile.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Application/Mapping/IMapFrom.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Application/ViewModel/Customer/AddressForListVm.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Application/ViewModel/Customer/ContactDetailListVm.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Interface/ICustomerRepository.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Model/CustomerContactInformation.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Infrastructure/Migrations/20230206195602_initial.Designer.cs" Line="57" Column="45" />
+      <File FileName="WareHouseMVC.Application/Interfaces/ICustomerService.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Infrastructure/Migrations/20230206195602_initial.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC/Program.cs" Line="57" Column="1" />
+      <File FileName="WareHouseMVC/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="WareHouseMVC/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="WareHouseMVC/app.db" />
+      <File FileName="WareHouseMVC/appsettings.json" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Infrastructure/Migrations/ContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Interface/IItemRepository.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Model/Item.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Model/Tag.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Model/Type.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Model/Provider.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Domain/Model/ItemTag.cs" Line="1" Column="1" />
+      <File FileName="WareHouseMVC.Infrastructure/Repositories/ItemRepository.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,10 +67,11 @@
             </Node>
             <Node name="UI" expanded="True">
               <Node name="WareHouseMVC" expanded="True">
-                <Node name="Controllers" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="CustomerController.cs" selected="True" />
+                </Node>
                 <Node name="Views" expanded="True">
                   <Node name="Customer" expanded="True" />
-                  <Node name="Shared" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -45,11 +80,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.UI.WareHouseMVC PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

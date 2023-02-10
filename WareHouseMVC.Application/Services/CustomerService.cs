@@ -5,11 +5,12 @@ using WareHouseMVC.Application.Interfaces;
 using WareHouseMVC.Application.ViewModel;
 using WareHouseMVC.Application.ViewModel.Customer;
 using WareHouseMVC.Domain.Interface;
+using WareHouseMVC.Domain.Model;
 
 namespace WareHouseMVC.Application.Services
 {
-	public class CustomerService : ICustomerService
-	{
+    public class CustomerService : ICustomerService
+    {
         private readonly ICustomerRepository _customerRepo;
         private readonly IMapper _mapper;
 
@@ -23,7 +24,10 @@ namespace WareHouseMVC.Application.Services
 
         public int AddCustomer(NewCustomerVm customer)
         {
-            throw new NotImplementedException();
+            var cust = _mapper.Map<Customer>(customer);
+            var id = _customerRepo.AddCustomer(cust);
+            return id;
+
         }
 
         public void DeleteCustomer(int id)
@@ -34,7 +38,7 @@ namespace WareHouseMVC.Application.Services
         public ListCustomerForListVm GetAllCustomerForList(int pageSize, int pageNo, string searchString)
         {
 
-            var customers = _customerRepo.GetAllActiveCustomers().Where(p=>p.Name.StartsWith(searchString))
+            var customers = _customerRepo.GetAllActiveCustomers().Where(p => p.Name.StartsWith(searchString))
                 .ProjectTo<CustomerForListVm>(_mapper.ConfigurationProvider).ToList();//zostanie automatycznie zmapowana do VM
 
             //var customers = _customerRepo.GetAllActiveCustomers()
@@ -44,9 +48,9 @@ namespace WareHouseMVC.Application.Services
 
             var customerList = new ListCustomerForListVm()
             {
-                PageSize=pageSize,
-                CurrentPage=pageNo,
-                SearchString=searchString,
+                PageSize = pageSize,
+                CurrentPage = pageNo,
+                SearchString = searchString,
                 Customers = customersToShow,
                 Count = customers.Count
 
@@ -95,15 +99,15 @@ namespace WareHouseMVC.Application.Services
             customerVm.Emails = new List<ContactDetailListVm>();
 
 
-            foreach(var address in customer.Addresses)
+            foreach (var address in customer.Addresses)
             {
                 var add = new AddressForListVm()
                 {
-                    Id=address.Id,
-                    Country=address.Country,
-                    City=address.City,
+                    Id = address.Id,
+                    Country = address.Country,
+                    City = address.City,
                 };
-               customerVm.Addresses.Add(add);
+                customerVm.Addresses.Add(add);
 
             }
             return customerVm;
