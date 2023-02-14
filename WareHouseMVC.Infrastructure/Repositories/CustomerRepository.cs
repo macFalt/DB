@@ -17,7 +17,7 @@ namespace WareHouseMVC.Infrastructure.Repositories
         {
             
             _context.Customers.Add(customer);
-            //_context.SaveChanges();
+            _context.SaveChanges();
             return customer.Id;
 
         }

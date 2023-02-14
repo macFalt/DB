@@ -220,3 +220,6 @@
 /Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC/bin/Debug/net6.0/WareHouseMVC.Application.dll
 /Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC/bin/Debug/net6.0/WareHouseMVC.Application.pdb
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC/bin/Debug/net6.0/FluentValidation.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll

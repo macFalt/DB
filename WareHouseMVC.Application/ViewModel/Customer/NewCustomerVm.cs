@@ -1,5 +1,6 @@
 ﻿using System;
 using AutoMapper;
+using FluentValidation;
 using WareHouseMVC.Application.Mapping;
 
 namespace WareHouseMVC.Application.ViewModel.Customer
@@ -19,10 +20,17 @@ namespace WareHouseMVC.Application.ViewModel.Customer
             profile.CreateMap<NewCustomerVm, WareHouseMVC.Domain.Model.Customer>();
 
         }
-
-
-
-
     }
+	public class NewCustomerValidation : AbstractValidator<NewCustomerVm>
+	{
+		public NewCustomerValidation()
+		{
+			RuleFor(x => x.Id).NotNull();
+			RuleFor(x => x.NIP).Length(10);
+			RuleFor(x => x.Regon).Length(9,14);
+			RuleFor(x => x.Name).MaximumLength(255);
+        }
+
+	}
 }
 

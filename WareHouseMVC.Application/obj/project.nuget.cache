@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "JZCnbX5mSMQTAxBZMuV5Up6KIgRKofZpij2J1OOEM++cqzLtDSdu2SJjbTwDC/QIEQ23CAfDjv7DnaqxhP1jbw==",
+  "dgSpecHash": "PfqW4mdgOKPTdNM+lYPYKf0HCMB1ewjeDy+Gcey3GzXjoZd0SBMHWU8PF73z4A00CqCdJxqrq2EbR9huRAZosg==",
   "success": true,
   "projectFilePath": "/Users/maciejfaltynski/Documents/folder bez nazwy/WareHouseMVC/WareHouseMVC.Application/WareHouseMVC.Application.csproj",
   "expectedPackageFiles": [
     "/Users/maciejfaltynski/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/maciejfaltynski/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "/Users/maciejfaltynski/.nuget/packages/fluentvalidation/11.5.0/fluentvalidation.11.5.0.nupkg.sha512",
+    "/Users/maciejfaltynski/.nuget/packages/fluentvalidation.aspnetcore/11.2.2/fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "/Users/maciejfaltynski/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.0/fluentvalidation.dependencyinjectionextensions.11.5.0.nupkg.sha512",
     "/Users/maciejfaltynski/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/maciejfaltynski/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/maciejfaltynski/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",

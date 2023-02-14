@@ -5,6 +5,9 @@ using WareHouseMVC.Domain.Interface;
 using WareHouseMVC.Infrastructure;
 using WareHouseMVC.Infrastructure.Repositories;
 using WareHouseMVC.Application;
+using FluentValidation.AspNetCore;
+using FluentValidation;
+using WareHouseMVC.Application.ViewModel.Customer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +26,12 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure();
+
+//builder.Services.AddControllersWithViews().AddFluentValidation();
+builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
+builder.Services.AddRazorPages();
+
+builder.Services.AddTransient<IValidator<NewCustomerVm>, NewCustomerValidation>();
 
 
 
